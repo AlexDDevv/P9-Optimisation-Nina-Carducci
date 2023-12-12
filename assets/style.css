@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap');
+
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -69,7 +71,7 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: 100%;
 }
 #about-me {
 	flex: 2
@@ -91,9 +93,6 @@ body {
 	font-size: 14px;
 }
 
-/* #gallery {
-	min-height: 100vh; 
-} */
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -127,15 +126,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
-}
-.mg-prev, .mg-next {
-	width: 30px;
-	height: 30px;
-	border-radius: 00%;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	font-size: 24px;
+	cursor: pointer;
 }
 
 .quote {
@@ -246,7 +237,7 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
-@media all and (max-width: 1180px) {
+@media screen and (max-width: 1180px) {
 	.picture {
 		flex : 2;
 	}
@@ -262,7 +253,7 @@ input[type="submit"] {
 	}
 }
 
-@media all and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
 
@@ -321,7 +312,7 @@ input[type="submit"] {
 	}
 }
 
-@media all and (max-width: 650px) {
+@media screen and (max-width: 650px) {
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
