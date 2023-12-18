@@ -237,6 +237,25 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.footer {
+	background: white;
+	padding: 30px 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: black;
+}
+.footer .name-and-address .name-footer {
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+.footer h4 {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+	font-size: 20px;
+}
+
+
 @media screen and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -344,6 +363,16 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+	.footer {
+		padding: 30px 20px;
+		gap: 20px;
+	}
+	.footer h4 {
+		font-size: 18px;
+	}
+	.footer p {
+		font-size: 14px;
 	}
 }
 
